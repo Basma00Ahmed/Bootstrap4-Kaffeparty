@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Coffee Party-Coffee Machines</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .dropdown-item {
+      color: rgb(226, 137, 19);
+    }
+    body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+  
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img {
+    width: 350px
+}
+
+.star {
+    color: red
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff
+}
+
+.bg-cart:hover {
+    color: #fff
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px
+}
+
+.bg-buy:hover {
+    color: #fff
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(253, 59, 0);
+}
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm  navbar-dark" style="background-color: #4c3d2b;">
+    <a class="navbar-brand" href="#" style="color: peru;">Coffee Party</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Products</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="CoffeeMachines.html">Coffee Machines</a>
+              <a class="dropdown-item" href="CoffeeParty.html">Coffee Party</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AboutUs.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row" style="background-color:#fbf4dc63;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 text-center">
+        <img class="img-responsive" src="Images/logo.ico" alt="Header">
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <br/>
+    <h3 style="color: #4c3d2b;text-shadow: 2px 2px#f5971c;text-align: center;">Coffee Machines</h3>
+    <div class="container d-flex justify-content-center mt-50 mb-50">
+   
+      <div class="row">
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine1.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 1</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$300.99</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">50 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine2.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 2</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$650.99</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">304 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine3.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 3</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$450.99</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">45 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine4.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 4</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$150.50</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">320 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine5.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 5</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$200.99</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">10 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-2">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="card-img-actions"> <img src="Images/machine6.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </div>
+                  </div>
+                  <div class="card-body bg-light text-center">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Lorem ipsum dolor sit amet</a> </h6> <a href="#" class="text-muted" data-abc="true">Coffee Machine-Model 6</a>
+                      </div>
+                      <h3 class="mb-0 font-weight-semibold">$350.99</h3>
+                      <div> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> <i class="fa fa-star star"></i> </div>
+                      <div class="text-muted mb-3">20 reviews</div> <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <br/>
+  <div class="text-center " style="margin-bottom:0 ;background-color: #4c3d2b;height: 50px;color: peru;line-height: 3;">
+    Copyright @2021 | Designed With by Coffee Party
+  </div>
+</body>
+
+</html>
